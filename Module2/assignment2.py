@@ -3,12 +3,13 @@ import pandas as pd
 # TODO: Load up the 'tutorial.csv' dataset
 #
 # .. your code here ..
-
-
+df =pd.read_csv("C:\Users\myele\PycharmProjects\DAT210x\Module2\Datasets\\tutorial.csv")
+print df
 
 # TODO: Print the results of the .describe() method
 #
 # .. your code here ..
+print df.describe()
 
 
 
@@ -18,3 +19,4 @@ import pandas as pd
 #
 # .. your code here ..
 
+print df.loc[2:4,'col3']
